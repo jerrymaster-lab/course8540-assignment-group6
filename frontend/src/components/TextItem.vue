@@ -1,5 +1,5 @@
 <template>
-  <div class="table-wrapper">
+  <div class="table-wrapper" v-if="textItems && textItems.length > 0">
     <table class="modern-table">
       <thead>
         <tr>

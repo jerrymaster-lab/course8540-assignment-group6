@@ -47,14 +47,6 @@
     </div>
 
     <div class="text-container">
-      <!-- <div class="text-header"><span>url</span><span>occurrences</span></div>
-      <TextItem
-        v-for="(textItem, index) in textItems"
-        :key="index"
-        :keyword="textItem.keyword"
-        :url="textItem.url"
-        :occurrences="textItem.occurrences"
-      ></TextItem> -->
       <TextItem :text-items="textItems"></TextItem>
     </div>
 
